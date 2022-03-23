@@ -63,6 +63,6 @@ for i, chapter in enumerate(course['chapters']):
                     line += f"[{k}]({v}) |"
                 else:
                     line += "- |"
-            line += ' - [] |\n'
+            line += ' - [ ] |\n'
             f.write(line)
 
