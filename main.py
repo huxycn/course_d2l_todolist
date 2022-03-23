@@ -2,7 +2,7 @@ import json
 from bs4 import BeautifulSoup
 
 
-with open('html_source/source.html', 'r') as f:
+with open('html/course.html', 'r') as f:
     soup = BeautifulSoup(f.read(), 'lxml')
 
 h2_list = soup.findAll('h2', attrs={'class': 'fs-4'})
@@ -58,7 +58,7 @@ with open(f"readme.md", 'w') as f:
     f.write('| Title | Book | PDF | Notebook | Video | 打卡 |\n')
     f.write('| --- | :---: | :---: | :---: | :---: | :---: |\n')
     for i, chapter in enumerate(course['chapters']):
-        f.write(f"| **{chapter['title']}** |\n")
+        f.write(f"| **{chapter['title']}** | {'='*4} | {'='*3} | {'='*8} | {'='*5} | {'='*2} |\n")
         # f.write(f"| **{chapter['title']}** | ---- | --- | ------- | ----- | 打卡 |\n")
         # f.write('| Title | Book | PDF | Notebook | Video | 打卡 |\n')
         # f.write('| --- | :---: | :---: | :---: | :---: | :---: |\n')

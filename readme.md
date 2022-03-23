@@ -1,6 +1,6 @@
 | Title | Book | PDF | Notebook | Video | 打卡 |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| **深度学习基础** |
+| **深度学习基础** | ==== | === | ======== | ===== | == |
 | 课程安排 | - | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-0_1.pdf) | - | [video](https://www.bilibili.com/video/BV1oX4y137bC) |
 | 深度学习介绍 | [book](https://zh-v2.d2l.ai/chapter_introduction/index.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-0_2.pdf) | - | [video](https://www.bilibili.com/video/BV1J54y187f9) |
 | 安装 | [book](https://zh-v2.d2l.ai/chapter_installation/index.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-0_3.pdf) | - | [video](https://www.bilibili.com/video/BV18p4y1h7Dr) |
@@ -31,7 +31,7 @@
 | 模型初始化和激活函数 | - | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-0_19.pdf) | - | [video](https://www.bilibili.com/video/BV1u64y1i75a?p=2) |
 | 实战 Kaggle 比赛：预测房价 | [book](https://zh-v2.d2l.ai/chapter_multilayer-perceptrons/kaggle-house-price.html) | - | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_multilayer-perceptrons/kaggle-house-price.slides.html) | [video](https://www.bilibili.com/video/BV1NK4y1P7Tu) |
 | 竞赛预测房价 | - | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-0_20.pdf) | - | [video](https://www.bilibili.com/video/BV1NK4y1P7Tu?p=2) |
-| **卷积神经网络** |
+| **卷积神经网络** | ==== | === | ======== | ===== | == |
 | 模型构造 | [book](https://zh-v2.d2l.ai/chapter_deep-learning-computation/model-construction.html) | - | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_deep-learning-computation/model-construction.slides.html) | [video](https://www.bilibili.com/video/BV1AK4y1P7vs) |
 | 参数管理 | [book](https://zh-v2.d2l.ai/chapter_deep-learning-computation/parameters.html) | - | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_deep-learning-computation/parameters.slides.html) | [video](https://www.bilibili.com/video/BV1AK4y1P7vs?p=2) |
 | 自定义层 | [book](https://zh-v2.d2l.ai/chapter_deep-learning-computation/custom-layer.html) | - | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_deep-learning-computation/custom-layer.slides.html) | [video](https://www.bilibili.com/video/BV1AK4y1P7vs?p=3) |
@@ -51,7 +51,7 @@
 | 批量归一化 | [book](https://zh-v2.d2l.ai/chapter_convolutional-modern/batch-norm.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-1_12.pdf) | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_convolutional-modern/batch-norm.slides.html) | [video](https://www.bilibili.com/video/BV1X44y1r77r/) |
 | 残差网络（ResNet） | [book](https://zh-v2.d2l.ai/chapter_convolutional-modern/resnet.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-1_13.pdf) | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_convolutional-modern/resnet.slides.html) | [video](https://www.bilibili.com/video/BV1bV41177ap/) |
 | 竞赛图片分类 | - | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-1_14.pdf) | - | [video](https://www.bilibili.com/video/BV1z64y1o7iz/) |
-| **计算机视觉** |
+| **计算机视觉** | ==== | === | ======== | ===== | == |
 | 硬件：CPU和GPU | [book](https://zh-v2.d2l.ai/chapter_computational-performance/hardware.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-2_1.pdf) | - | [video](https://www.bilibili.com/video/BV1TU4y1j7Wd/) |
 | 更多的专有硬件 | - | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-2_2.pdf) | - | [video](https://www.bilibili.com/video/BV1VV41147PC/) |
 | 多GPU训练 | [book](https://zh-v2.d2l.ai/chapter_computational-performance/multiple-gpus.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-2_3.pdf) | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_computational-performance/multiple-gpus.slides.html) | [video](https://www.bilibili.com/video/BV1vU4y1V7rd/) |
@@ -78,7 +78,7 @@
 | 全连接卷积神经网络（FCN） | [book](https://zh-v2.d2l.ai/chapter_computer-vision/fcn.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-2_16.pdf) | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_computer-vision/fcn.slides.html) | [video](https://www.bilibili.com/video/BV1af4y1L7Zu/) |
 | 样式迁移 | [book](https://zh-v2.d2l.ai/chapter_computer-vision/neural-style.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-2_17.pdf) | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_computer-vision/neural-style.slides.html) | [video](https://www.bilibili.com/video/BV1Eh41167GN/) |
 | 竞赛目标检测 | - | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-2_18.pdf) | - | [video](https://www.bilibili.com/video/BV1F64y1x7xP/) |
-| **循环神经网络** |
+| **循环神经网络** | ==== | === | ======== | ===== | == |
 | 序列模型 | [book](https://zh-v2.d2l.ai/chapter_recurrent-neural-networks/sequence.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-3_1.pdf) | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_recurrent-neural-networks/sequence.slides.html) | [video](https://www.bilibili.com/video/BV1L44y1m768/) |
 | 文本预处理 | [book](https://zh-v2.d2l.ai/chapter_recurrent-neural-networks/text-preprocessing.html) | - | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_recurrent-neural-networks/text-preprocessing.slides.html) | [video](https://www.bilibili.com/video/BV1Fo4y1Q79L/) |
 | 语言模型和数据集 | [book](https://zh-v2.d2l.ai/chapter_recurrent-neural-networks/language-models-and-dataset.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-3_2.pdf) | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_recurrent-neural-networks/language-models-and-dataset.slides.html) | [video](https://www.bilibili.com/video/BV1ZX4y1F7K3/) |
@@ -93,7 +93,7 @@
 | 编码器-解码器结构 | [book](https://zh-v2.d2l.ai/chapter_recurrent-modern/encoder-decoder.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-3_8.pdf) | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_recurrent-modern/encoder-decoder.slides.html) | [video](https://www.bilibili.com/video/BV1c54y1E7YP/) |
 | 序列到序列学习（seq2seq） | [book](https://zh-v2.d2l.ai/chapter_recurrent-modern/seq2seq.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-3_9.pdf) | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_recurrent-modern/seq2seq.slides.html) | [video](https://www.bilibili.com/video/BV16g411L7FG/) |
 | 束搜索 | [book](https://zh-v2.d2l.ai/chapter_recurrent-modern/beam-search.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-3_10.pdf) | - | [video](https://www.bilibili.com/video/BV1B44y1C7m1/) |
-| **注意力机制** |
+| **注意力机制** | ==== | === | ======== | ===== | == |
 | 注意力机制 | [book](https://zh-v2.d2l.ai/chapter_attention-mechanisms/nadaraya-waston.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-4_1.pdf) | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_attention-mechanisms/nadaraya-waston.slides.html) | [video](https://www.bilibili.com/video/BV1264y1i7R1/) |
 | 注意力分数 | [book](https://zh-v2.d2l.ai/chapter_attention-mechanisms/attention-scoring-functions.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-4_2.pdf) | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_attention-mechanisms/attention-scoring-functions.slides.html) | [video](https://www.bilibili.com/video/BV1Tb4y167rb/) |
 | 使用注意力机制的seq2seq | [book](https://zh-v2.d2l.ai/chapter_attention-mechanisms/bahdanau-attention.html) | [pdf](https://courses.d2l.ai/zh-v2/assets/pdfs/part-4_3.pdf) | [notebook](https://courses.d2l.ai/zh-v2/assets/notebooks/chapter_attention-mechanisms/bahdanau-attention.slides.html) | [video](https://www.bilibili.com/video/BV1v44y1C7Tg/) |
