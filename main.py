@@ -22,7 +22,7 @@ for h2, div in zip(h2_list, div_list):
         lecture = {
             'title': dl.text.strip(),
             'assets': {
-                'doc': '',
+                'book': '',
                 'pdf': '',
                 'notebook': '',
                 'video': ''
@@ -30,15 +30,17 @@ for h2, div in zip(h2_list, div_list):
         }
         for a in dl.findAll('a'):
             url = a['href']
-            url = 'https://courses.d2l.ai/zh-v2/' + url if url.startswith('assets') else url
-            if 'zh-v2' in url:
-                lecture['assets']['doc'] = url
-            if 'pdfs' in url:
-                lecture['assets']['pdf'] = url
-            if 'notebooks' in url:
-                lecture['assets']['notebook'] = url
-            if 'video' in url:
-                lecture['assets']['video'] = url
+            if url.startswith('assets'):
+                url = 'https://courses.d2l.ai/zh-v2/' + url
+                if 'pdfs' in url:
+                    lecture['assets']['pdf'] = url
+                if 'notebooks' in url:
+                    lecture['assets']['notebook'] = url
+            else:
+                if 'video' in url:
+                    lecture['assets']['video'] = url
+                if 'zh-v2.d2l.ai' in url:
+                    lecture['assets']['book'] = url
 
         chapter['lectures'].append(lecture)
     course['chapters'].append(chapter)
@@ -51,7 +53,7 @@ with open('json/course.json', 'r') as f:
 for i, chapter in enumerate(course['chapters']):
     with open(f"md/chapter_{i}.md", 'w') as f:
         f.write(f"## {chapter['title']}\n")
-        f.write('| Title | Doc | PDF | Notebook | Video | 打卡 |\n')
+        f.write('| Title | Book | PDF | Notebook | Video | 打卡 |\n')
         f.write('| --- | :---: | :---: | :---: | :---: | :---: |\n')
 
         for lecture in chapter['lectures']:
