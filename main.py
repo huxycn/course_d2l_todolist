@@ -58,7 +58,7 @@ with open(f"readme.md", 'w') as f:
     f.write('| Title | Book | PDF | Notebook | Video | 打卡 |\n')
     f.write('| --- | :---: | :---: | :---: | :---: | :---: |\n')
     for i, chapter in enumerate(course['chapters']):
-        f.write(f"| **{chapter['title']}** | {'='*4} | {'='*3} | {'='*8} | {'='*5} | {'='*2} |\n")
+        f.write(f"| **{chapter['title']}** | {'='*4} | {'='*3} | {'='*8} | {'='*5} |  |\n")
         # f.write(f"| **{chapter['title']}** | ---- | --- | ------- | ----- | 打卡 |\n")
         # f.write('| Title | Book | PDF | Notebook | Video | 打卡 |\n')
         # f.write('| --- | :---: | :---: | :---: | :---: | :---: |\n')
