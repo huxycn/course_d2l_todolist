@@ -50,19 +50,26 @@ with open('json/course.json', 'w') as f:
 
 with open('json/course.json', 'r') as f:
     course = json.load(f)
-for i, chapter in enumerate(course['chapters']):
-    with open(f"md/chapter_{i}.md", 'w') as f:
-        f.write(f"## {chapter['title']}\n")
-        f.write('| Title | Book | PDF | Notebook | Video | 打卡 |\n')
-        f.write('| --- | :---: | :---: | :---: | :---: | :---: |\n')
+
+
+with open(f"readme.md", 'w') as f:
+    # f.write('把李沐老师的 [动手深度学习在线课程](https://courses.d2l.ai/zh-v2/) 网页数据解析，导出格式化数据，做成打卡表格，方便管理学习进度\n')
+    # f.write('Title,Book,PDF,Notebook,Video,Finished\n')
+    f.write('| Title | Book | PDF | Notebook | Video | 打卡 |\n')
+    f.write('| --- | :---: | :---: | :---: | :---: | :---: |\n')
+    for i, chapter in enumerate(course['chapters']):
+        f.write(f"| **{chapter['title']}** |\n")
+        # f.write(f"| **{chapter['title']}** | ---- | --- | ------- | ----- | 打卡 |\n")
+        # f.write('| Title | Book | PDF | Notebook | Video | 打卡 |\n')
+        # f.write('| --- | :---: | :---: | :---: | :---: | :---: |\n')
 
         for lecture in chapter['lectures']:
-            line = f"| {lecture['title']} | "
+            line = f"| {lecture['title']} |"
             for k, v in lecture['assets'].items():
                 if v:
-                    line += f"[{k}]({v}) |"
+                    line += f" [{k}]({v}) |"
                 else:
-                    line += "- |"
-            line += ' - [ ] |\n'
+                    line += f" - |"
+            line += '\n'
             f.write(line)
 
